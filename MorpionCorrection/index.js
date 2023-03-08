@@ -1,5 +1,7 @@
-import { Ihm } from "./classes/ihm.js"
+//import { Ihm } from "./classes/ihm.js"
 //import { Jeu } from "./classes/jeu.js"
+
+import { Ihm } from "./classe/ihm.js";
 
 
 console.log("Mon jeu du morpion")

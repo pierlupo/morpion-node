@@ -22,16 +22,16 @@ while (!gameOver) {
     bonnePosition = verifPosition(col, row, morpion);
     if (!bonnePosition) console.log("Veuillez choisir une position autorisée");
   }
-    morpion[col - 1][row - 1] = tour;
-    // if(tour === 1) tour = 2;
-    // else tour = 1;
-    //même chose en ternaire :
-    tour === 1 ? (tour = 2) : (tour = 1);
-    afficherGrille(morpion);
-    // gameOver = verifGameOver(morpion) 
-    // if(!gameOver){
-    //     console.log("Bravo");
-    // }
+  morpion[col - 1][row - 1] = tour;
+  // if(tour === 1) tour = 2;
+  // else tour = 1;
+  //même chose en ternaire :
+  tour === 1 ? (tour = 2) : (tour = 1);
+  afficherGrille(morpion);
+  // gameOver = verifGameOver(morpion)
+  // if(!gameOver){
+  //     console.log("Bravo");
+  // }
 }
 
 function afficherGrille(morpion) {
@@ -67,6 +67,3 @@ function verifPosition(col, row, morpion) {
 // if(morpion[2][1] === morpion[1][1] && morpion[2][1] === morpion[1][2] !==0) return true;
 // return false
 // }
-
-
-
