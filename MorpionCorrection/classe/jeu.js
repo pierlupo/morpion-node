@@ -80,7 +80,8 @@ export class Jeu {
     }
     return test;
   }
-
+  //ne marchera pas sur un tableau plus grand !!
+  //exercice: trouver une solution pour que le test de victoire marche sur un tableau de n'importe quelle taille
   testDiag(joueur) {
 
     let test = false
