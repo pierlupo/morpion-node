@@ -1,10 +1,14 @@
 export class Jeu {
-  constructor() {
+  constructor(log) {
     this.board = [
       [" ", " ", " "],
       [" ", " ", " "],
       [" ", " ", " "],
     ];
+            // for(let i=1; i <= 3; i++) {
+        //     this.board = [...this.board, [' ', ' ', ' ']]
+        // }
+        this.log=(log);
   }
 
   afficher() {
